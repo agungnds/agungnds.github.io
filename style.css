@@ -1,0 +1,20 @@
+.jumbotron {
+  padding-top: 6rem;
+  background-color: #e2edff;
+}
+
+#sap {
+  background-color: #e2edff;
+}
+
+#contact {
+  background-color: #e2edff;
+}
+
+input#wa_name textarea#watextarea {
+  background: #fff;
+}
+
+section {
+  padding-top: 5rem;
+}
