@@ -680,7 +680,7 @@
           </div>
           <div
             class="col-md-5 mb-3"
-            data-aos="fade-up-left"
+            data-aos="fade-up-right"
             data-aos-delay="100" >
             <div class="card">
               <br /><br />
@@ -828,7 +828,7 @@
             </div>
           </div>
           <div class="col-md-5 mb-3"
-            data-aos="fade-up-right"
+            data-aos="fade-up-left"
             data-aos-delay="100" >
             <div class="card">
               <br /><br />
@@ -1149,7 +1149,7 @@
               </div>
             </div>
           </div>
-          <div class="col-md-5 mb-3" data-aos="fade-up">
+          <div class="col-md-5 mb-3" data-aos="fade-up-right">
             <div class="card">
               <br /><br />
               <img src="img/crudsiswa/Screenshot (317).png"
@@ -1209,6 +1209,100 @@
                           </div>
                           <div class="carousel-item">
                             <img id="sisekolah5"
+                              class="d-block w-100"
+                              alt="..." />
+                          </div>
+                        </div>
+                        <div class="modal-footer">
+                          <a class="chevron-circle-left"
+                            data-mdb-target="#crud1"
+                            type="button"
+                            data-mdb-slide="prev" >
+                            <span class="carousel-control-prev-icon"
+                              aria-hidden="true">
+                            </span>
+                          </a>
+                          <a class="chevron-circle-right"
+                            data-mdb-target="#crud1"
+                            type="button"
+                            data-mdb-slide="next" >
+                            <span class="carousel-control-next-icon"
+                              aria-hidden="true">
+                            </span>
+                          </a>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-5 mb-3" data-aos="fade-up-left">
+            <div class="card">
+              <br /><br />
+              <img src="img/bottelekeuangan/2.jpg"
+                class="card-img-top"
+                alt="..." />
+              <div class="card-body">
+                <br /><br />
+                <h5 class="card-title">BOT TELEGRAM PENCATATAN UANG KELUAR-MASUK</h5>
+                <p class="card-text"></p>
+              </div>
+              <button type="button"
+                class="btn btn-primary"
+                data-mdb-toggle="modal"
+                data-mdb-target="#crud" 
+                onclick="bottelekeuangan()">
+                Check this out
+              </button>
+              <div class="modal fade"
+                id="crud"
+                tabindex="-1"
+                aria-labelledby="exampleModalLabel"
+                aria-hidden="true" >
+                <div class="modal-dialog modal-xl">
+                  <div class="modal-content">
+                    <div class="modal-header">
+                      <h5 class="modal-title">Screenshoot</h5>
+                      <button type="button"
+                        class="btn-close"
+                        data-mdb-dismiss="modal"
+                        aria-label="Close">
+                      </button>
+                    </div>
+                    <div class="modal-body">
+                      <div id="crud1"
+                        class="carousel slide carousel-fade"
+                        data-mdb-ride="carousel" >
+                        <div class="carousel-inner">
+                          <div class="carousel-item active">
+                            <img id="bottelekeuangan1"
+                              class="d-block w-100"
+                              alt="..." />
+                          </div>
+                          <div class="carousel-item">
+                            <img id="bottelekeuangan2"
+                              class="d-block w-100"
+                              alt="..." />
+                          </div>
+                          <div class="carousel-item">
+                            <img id="bottelekeuangan3"
+                              class="d-block w-100"
+                              alt="..." />
+                          </div>
+                          <div class="carousel-item">
+                            <img id="bottelekeuangan4"
+                              class="d-block w-100"
+                              alt="..." />
+                          </div>
+                          <div class="carousel-item">
+                            <img id="bottelekeuangan5"
+                              class="d-block w-100"
+                              alt="..." />
+                          </div>
+                          <div class="carousel-item">
+                            <img id="bottelekeuangan6"
                               class="d-block w-100"
                               alt="..." />
                           </div>
@@ -1426,6 +1520,14 @@
         document.getElementById("sisekolah5").src = "img/crudsiswa/Screenshot (321).png";
       }
       
+      function bottelekeuangan() {
+        document.getElementById("bottelekeuangan1").src = "img/bottelekeuangan/2.jpg";
+        document.getElementById("bottelekeuangan2").src = "img/bottelekeuangan/7.jpg";
+        document.getElementById("bottelekeuangan3").src = "img/bottelekeuangan/3.jpg";
+        document.getElementById("bottelekeuangan4").src = "img/bottelekeuangan/4.jpg";
+        document.getElementById("bottelekeuangan5").src = "img/bottelekeuangan/5.jpg";
+        document.getElementById("bottelekeuangan6").src = "img/bottelekeuangan/6.jpg";
+      }
     </script>
 
     <!-- <script
