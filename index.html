@@ -839,9 +839,7 @@
             </div>
           </div>
           <div
-            class="col-md-5 mb-3"
-            data-aos="fade-up-right"
-            data-aos-delay="100" >
+            class="col-md-5 mb-3" data-aos="fade-up-right" data-aos-delay="100" >
             <div class="card">
               <br /><br />
               <img src="img/gis/Screenshot (297).png"
@@ -987,9 +985,7 @@
               </div>
             </div>
           </div>
-          <div class="col-md-5 mb-3"
-            data-aos="fade-up-left"
-            data-aos-delay="100" >
+          <div class="col-md-5 mb-3" data-aos="fade-up-left" data-aos-delay="100" >
             <div class="card">
               <br /><br />
               <img src="img/sisurat/Screenshot (360).png"
@@ -1105,7 +1101,7 @@
               </div>
             </div>
           </div>
-          <div class="col-md-5 mb-3" data-aos="fade-up-right">
+          <div class="col-md-5 mb-3" data-aos="fade-up-right" data-aos-delay="100">
             <div class="card">
               <br /><br />
               <img src="img/loggudang/Screenshot (322).png"
@@ -1190,9 +1186,7 @@
               </div>
             </div>
           </div>
-          <div class="col-md-5 mb-3"
-            data-aos="fade-up-left"
-            data-aos-delay="100" >
+          <div class="col-md-5 mb-3" data-aos="fade-up-left" data-aos-delay="100" >
             <div class="card">
               <br /><br />
               <img src="img/ecommerce/1.png" class="card-img-top" alt="..." />
@@ -1309,7 +1303,7 @@
               </div>
             </div>
           </div>
-          <div class="col-md-5 mb-3" data-aos="fade-up-right">
+          <div class="col-md-5 mb-3" data-aos="fade-up-right" data-aos-delay="100">
             <div class="card">
               <br /><br />
               <img src="img/crudsiswa/Screenshot (317).png"
@@ -1398,7 +1392,7 @@
               </div>
             </div>
           </div>
-          <div class="col-md-5 mb-3" data-aos="fade-up-left">
+          <div class="col-md-5 mb-3" data-aos="fade-up-left" data-aos-delay="100">
             <div class="card">
               <br /><br />
               <img src="img/bottelekeuangan/1.jpg"
@@ -1477,6 +1471,87 @@
               </div>
             </div>
           </div>
+
+          <div class="col-md-5 mb-3" data-aos="fade-up-right" data-aos-delay="100">
+            <div class="card">
+              <br /><br />
+              <img src="img/itiket/itiket_x2.png"
+                class="card-img-top"
+                alt="..." />
+              <div class="card-body">
+                <br /><br />
+                <h5 class="card-title">SISTEM INFORMASI IT TIKECTING ISSUE</h5>
+                <p class="card-text"></p>
+              </div>
+              <button type="button"
+                class="btn btn-primary"
+                data-mdb-toggle="modal"
+                data-mdb-target="#crud" 
+                onclick="getsiitiket()">
+                Check this out
+              </button>
+              <div class="modal fade"
+                id="crud"
+                tabindex="-1"
+                aria-labelledby="exampleModalLabel"
+                aria-hidden="true" >
+                <div class="modal-dialog modal-xl">
+                  <div class="modal-content">
+                    <div class="modal-header">
+                      <h5 class="modal-title">Screenshoot</h5>
+                      <button type="button"
+                        class="btn-close"
+                        data-mdb-dismiss="modal"
+                        aria-label="Close">
+                      </button>
+                    </div>
+                    <div class="modal-body">
+                      <div id="crud1"
+                        class="carousel slide carousel-fade"
+                        data-mdb-ride="carousel" >
+                        <div class="carousel-inner">
+                          <div class="carousel-item active">
+                            <img id="itiket1"
+                              class="d-block w-100"
+                              alt="..." />
+                          </div>
+                          <div class="carousel-item">
+                            <img id="itiket2"
+                              class="d-block w-100"
+                              alt="..." />
+                          </div>
+                          <div class="carousel-item">
+                            <img id="itiket3"
+                              class="d-block w-100"
+                              alt="..." />
+                          </div>
+                        </div>
+                        <div class="modal-footer">
+                          <a class="chevron-circle-left"
+                            data-mdb-target="#crud1"
+                            type="button"
+                            data-mdb-slide="prev" >
+                            <span class="carousel-control-prev-icon"
+                              aria-hidden="true">
+                            </span>
+                          </a>
+                          <a class="chevron-circle-right"
+                            data-mdb-target="#crud1"
+                            type="button"
+                            data-mdb-slide="next" >
+                            <span class="carousel-control-next-icon"
+                              aria-hidden="true">
+                            </span>
+                          </a>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
         </div>
       </div>
 
@@ -1672,6 +1747,12 @@
         document.getElementById("bottelekeuangan1").src = "img/bottelekeuangan/1.jpg";
         document.getElementById("bottelekeuangan2").src = "img/bottelekeuangan/2.jpg";
         document.getElementById("bottelekeuangan3").src = "img/bottelekeuangan/3.jpg";
+      }
+
+      function getsiitiket() {
+        document.getElementById("itiket1").src = "img/itiket/itiket_x1.png";
+        document.getElementById("itiket2").src = "img/itiket/itiket_x2.png";
+        document.getElementById("itiket3").src = "img/itiket/itiket_x3.png";
       }
     </script>
 
